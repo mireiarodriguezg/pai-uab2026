@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <<meta charset="UTF-8">
+    <title>PIXAR - HTML i CSS</title>
+    <!-- Enllaç al fitxer d'estils CSS extern -->
+    <link href="css/elMeuEstil.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!-- Encapçalament amb el títol i el menú -->
+    <header>
+        <h1>PIXAR</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Feature films</li>
+            <li>Short films</li>
+            <li>Technology</li>
+            <li>Careers</li>
+            <li>Extras</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+<!-- Primera secció: Imatge principal -->
+<section>
+    <img src="img/onward_back_2019.jpg" width="100%" alt="Imatge Principal Onward">
+</section>
+
+<!-- Segona secció: Tres imatges inferiors amb paràgrafs i classes/identificadors -->
+<section class="centrat">
+    <div id="primera">
+        <img src="img/image-asset.jpeg" width="100%" alt="Careers at Pixar">
+        <p>CAREERS AT PIXAR</p>
+    </div>
+    <div id="segona">
+        <img src="img/soul_home_lower.jpg" width="100%" alt="Soul">
+        <p>SOUL</p>
+    </div>
+    <div id="tercera"></div>
+        <img src="img/onward2.jpg" width="100%" alt="Onward Trailers">
+        <p>ONWARD TRAILERS</p>
+    </div>
+</section>
+
+<!-- Peu de pàgina (opcional / estructurat) -->
+ <footer>
+    <!-- Podries afegir els enllaços de política de privadesa aquí -->
+ </footer>
+
+</body>
+</html>

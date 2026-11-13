@@ -1,0 +1,77 @@
+/* Configuració general i de l'encapçalament */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: cambria, serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Distribució de l'encapçalament i el menú superior */
+header {
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+
+nav {
+    width: 80%;
+    height: 60px;
+    float: left;
+    font-variant-caps: all-small-caps;
+    font-size: 20px;
+    text-align: right; /* Alinea el menú a la dreta */
+}
+
+/* Estils per a la llista del menú horitzontal */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+/* Netejar els flotants per evitar problemes d'estructura */
+section {
+    clear: both;
+}
+
+/* Secció de les tres imatges inferiors */
+.centrat {
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 20px;
+}
+
+/* Estils per als blocs de les tres imatges */
+div#primera {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+div#segona {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+div#tercera {
+    float: left;
+    width: 30%;
+}
+
+/* Estils per als textos sota les imatges inferiors */
+.centrat p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
